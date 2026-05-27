@@ -10,7 +10,7 @@ i18n
           title: "Sobre",
           subtitle: "Contribuidor em inovações na ufs",
           researchAndExtension: "Pesquisa e extensão",
-          description: "O Centro de Inovação em Durabilidade Acelerada (CIDA), criado em 2024, em parceria com o Instituto de Pesquisas sobre Desastres (IPD), promove ensino, pesquisa e extensão voltados à inovação tecnológica. O centro desenvolve pesquisas em áreas como drones, enxames, metamateriais, visão computacional, Structural Health Monitoring, metrologia, inteligência artificial, fotogrametria e energias renováveis. Também realiza atividades de extensão, como oficinas de minifoguetes, astronomia e apoio a equipes como a Zenith (foguetes) e a Swarm 79 (drones), fortalecendo a formação prática de estudantes e a difusão científica.",
+          description: "O Centro de Inovação em Dinâmica Aplicada (CIDA), criado em 2024, promove ensino, pesquisa e extensão voltados à inovação tecnológica. O centro desenvolve pesquisas em áreas como drones, enxames, metamateriais, visão computacional, Structural Health Monitoring, metrologia, inteligência artificial, fotogrametria e energias renováveis. Também realiza atividades de extensão, como oficinas de minifoguetes, astronomia e apoio a equipes como a Zenith (foguetes) e a Swarm 79 (drones), fortalecendo a formação prática de estudantes e a difusão científica. Bem como faz parte do Condominio Multiusuario IPD: Instituto de Pesquisas sobre Desastres (IPD),",
           instagram: "Instagram",
           email: "E-mail",
           equipmentsTitle: "Equipamentos",
