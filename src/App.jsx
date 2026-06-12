@@ -21,6 +21,7 @@ function App() {
       <Sobre />
       <Equipamentos />
       <Projetos />
+      <Publicacoes />
       <Contact />
       <Footer />
     </main>

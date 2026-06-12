@@ -13,26 +13,57 @@ const Publications = () => {
                 : publicacoesPT; // Padrão para português
 
     return (
-        <section className="publicacoes section" id="publications">
+        <section className="publicacoes section" id="publicacoes">
             <h2 className="section__title text-cs">{t('publicationsTitle')}</h2>
             <p className="section__subtitle">
                 {/*Nossos <span>Trabalhos</span>*/}
             </p>
 
-            <div className="skills__container container grid">
+            <div className="publications__container container grid">
                 {
-                    data.map(({ id, title, authors, category }, index) => {
+                    data.map(({ id, title, authors, details, doi, pdf }, index) => {
+                        const articleLabel = i18n.language === 'fr' ? 'Voir l’article'
+                            : i18n.language === 'en' ? 'View article'
+                            : 'Ver artigo';
+
                         return (
-                            <div className="skills__item" key={index}>
-                                <h7 className="skills__name__id">{id}</h7>
-                                <div className="skills__titles">
-                                    <h7 className="skills__name">{title}</h7>
+                            <article className="publication__item" key={`${id}-${index}`}>
+                                <div className="publication__header">
+                                    <span className="publication__tag">{id}</span>
+                                    {pdf && <span className="publication__type">PDF</span>}
                                 </div>
 
-                                <p className="skills__description">
+                                <h3 className="publication__title">{title}</h3>
+
+                                <p className="publication__authors">
                                     {authors.join(', ')}
                                 </p>
-                            </div>
+
+                                {details && (
+                                    <p className="publication__details">
+                                        {details}
+                                    </p>
+                                )}
+
+                                {doi && (
+                                    <p className="publication__doi">
+                                        doi: {doi}
+                                    </p>
+                                )}
+
+                                <div className="publication__actions">
+                                    {pdf && (
+                                        <a
+                                            className="publication__pdf"
+                                            href={pdf}
+                                            target="_blank"
+                                            rel="noreferrer"
+                                        >
+                                            {articleLabel}
+                                        </a>
+                                    )}
+                                </div>
+                            </article>
                         )
                     })
                 }

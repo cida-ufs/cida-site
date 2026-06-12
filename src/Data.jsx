@@ -37,6 +37,7 @@ import monitoramento_saude from './assets/projetos/monitoramento_saude.png';
 import renovaveis from './assets/projetos/renovaveis.png';
 import zenith from './assets/projetos/zenith.png';
 import swarm79 from './assets/projetos/swarm79.png';
+import enhancedWeightedTargetApproximationPdf from './artigos/Enhanced_Weighted_Target_Approximation_Using_an_Improved_Particle_Swarm_Optimization_Approach.pdf';
 
 export const linksPT = [
   {
@@ -597,6 +598,22 @@ export const icPT = [
 
 export const publicacoesPT = [
   {
+    id: "IEEE Access 2026",
+    title: "Enhanced Weighted Target Approximation Using an Improved Particle Swarm Optimization Approach",
+    authors: [
+      "G. R. Dos Santos",
+      "G. C. Machado",
+      "A. C. Brandão Ramos",
+      "D. D. Bueno",
+      "D. B. Riffel",
+      "A. Carlos Rodrigues Ramos"
+    ],
+    details: "IEEE Access, vol. 14, pp. 75642-75656, 2026",
+    doi: "10.1109/ACCESS.2026.3692710",
+    pdf: enhancedWeightedTargetApproximationPdf,
+    category: "Research Papers"
+  },
+  {
     id: "CONEM2024-0091",
     title: "ESTIMATIVA SIMULTÂNEA DA DIFUSIVIDADE TÉRMICA E CONDUTIVIDADE TÉRMICA DE MATERIAIS CONDUTORES USANDO ALGORITMO DE OTIMIZAÇÃO",
     authors: [
@@ -750,6 +767,22 @@ export const publicacoesPT = [
 
 export const publicacoesEN = [
   {
+    id: "IEEE Access 2026",
+    title: "Enhanced Weighted Target Approximation Using an Improved Particle Swarm Optimization Approach",
+    authors: [
+      "G. R. Dos Santos",
+      "G. C. Machado",
+      "A. C. Brandão Ramos",
+      "D. D. Bueno",
+      "D. B. Riffel",
+      "A. Carlos Rodrigues Ramos"
+    ],
+    details: "IEEE Access, vol. 14, pp. 75642-75656, 2026",
+    doi: "10.1109/ACCESS.2026.3692710",
+    pdf: enhancedWeightedTargetApproximationPdf,
+    category: "Research Papers"
+  },
+  {
     id: "CONEM2024-0091",
     title: "Simultaneous Estimation of Thermal Diffusivity and Thermal Conductivity of Conductive Materials Using Optimization Algorithm",
     authors: [
@@ -901,6 +934,22 @@ export const publicacoesEN = [
 ]
 
 export const publicacoesFR = [
+  {
+    id: "IEEE Access 2026",
+    title: "Enhanced Weighted Target Approximation Using an Improved Particle Swarm Optimization Approach",
+    authors: [
+      "G. R. Dos Santos",
+      "G. C. Machado",
+      "A. C. Brandão Ramos",
+      "D. D. Bueno",
+      "D. B. Riffel",
+      "A. Carlos Rodrigues Ramos"
+    ],
+    details: "IEEE Access, vol. 14, pp. 75642-75656, 2026",
+    doi: "10.1109/ACCESS.2026.3692710",
+    pdf: enhancedWeightedTargetApproximationPdf,
+    category: "Articles de recherche"
+  },
   {
     id: "CONEM2024-0091",
     title: "Estimation simultanée de la diffusivité thermique et de la conductivité thermique des matériaux conducteurs à l'aide d'un algorithme d'optimisation",
